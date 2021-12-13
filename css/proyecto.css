@@ -1,0 +1,427 @@
+body{
+    background-color:white ;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    background-color:white;
+    margin: 0.5px auto;
+    padding: 2px;
+    border-radius: 10px;
+
+}
+
+.nav{
+    width: 100%;
+    background-color: rgb(190, 44, 44);
+ margin: 1px auto;
+
+}
+
+
+.button{
+    background-color: #2F4858;
+    color:white;
+    display: inline-block; 
+    margin: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px white ;
+border-radius: 10px;
+position: absolute;
+top: ;
+right: 1%;
+left: ;
+
+
+}
+
+.button1{
+    background-color: #2F4858;
+    color:white;
+    display: inline-block; 
+    margin: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px white ;
+border-radius: 10px;
+
+}
+
+.button2{
+    background-color: #2F4858;
+    color:white;
+    display: inline-block; 
+    margin: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px white ;
+border-radius: 10px;
+
+}
+
+.button3{
+    background-color: #2F4858;
+    color:white;
+    display: inline-block; 
+    margin: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px white ;
+border-radius: 10px;
+
+}
+
+.button4{
+    background-color: #2F4858;
+    color:white;
+    display: inline-block; 
+    margin: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px white ;
+border-radius: 10px;
+
+}
+
+#contenedor{
+width: 100%;
+height: 60%;
+}
+
+#section{
+    width: 35%;
+    height: 40%;
+    border: 1px solid;
+    border-radius: 10px;
+    float: left;
+    padding: 2px;
+    margin: 0.5px;
+    text-align: center;
+    position: relative;
+    top: ;
+    right: ;
+    left:30% ;
+    bottom: ;
+}
+
+#section  {
+    width: 60%;
+    height: 65%;
+    text-align: justify;
+    font: 1.5em sans-serif;
+    position: absolute;
+    top: 43%;
+    right:;
+    left: 3%;
+}
+
+#section h4 {
+    
+    text-align: center;
+    font: 1.2em sans-serif;
+   
+}
+
+#section p {
+        color: #2F4858;
+        transition: all 300ms;
+}
+
+#section p:hover{
+    transform: scale(1.10);
+}
+
+#section figure{
+    text-align: center;
+    
+}
+
+#section figure img{
+  
+    transition: all 300ms;
+    position: relative;
+    
+}
+
+#section figure img:hover{
+   transform: scale(2.00);
+    
+}
+#aside{
+    position: absolute;
+    top: ;
+    right: 2%;
+    left: ;
+}
+
+@media(min-width:480px){
+    .header img{
+        width: 450px;
+        flex-direction:row;
+        background-color: #2F4858;
+
+    }
+
+@media(min-width:480px){
+    .nav{
+        width: 450px;
+        flex-direction:row;
+        background-color: #2F4858;
+
+    }
+
+@media(min-width:480px){
+    .nav .button{
+        
+        flex-direction:row;
+        background-color: #2F4858;
+      position: absolute;
+      top: 50%;
+     
+    }
+
+    @media(min-width:480px){
+        .section{
+          
+            width: 240px;
+         height: 25%;
+            flex-direction: row;
+           position: absolute;
+           top:58% ;
+           right:60% ;
+           left: ;
+           
+        }
+
+        @media(min-width:480px){
+            .section video{
+                width: 230px;
+                height: 30%;
+                position: absolute;
+                top: ;
+                right:10% ;
+                left: ;
+               
+               
+            }
+
+             @media(min-width:480px){
+                #aside table {
+                    width: 200%;                
+                    flex-direction: row;
+                    position: absolute;
+                    top:87% ;
+                    right:30%;
+                    left: ;
+               
+                   
+                }
+
+                @media(min-width:480px){
+                    #aside h3{
+                                          
+                        flex-direction: row;
+                        position: absolute;
+                        top:64% ;
+                        right:30%;
+                        left: ;
+                   
+                       
+                    }
+
+                    @media(min-width:480px){
+                        #aside hr{
+                            
+                                              
+                            flex-direction: row;
+                            position: absolute;
+                            top:;
+                            right:20%;
+                            left: ;
+                       
+                           
+                        }
+
+                       
+
+                @media(min-width:480px){
+                    .aside p{
+                        font: 1em sans-serif;
+                   
+                       
+                    }
+
+                    @media(min-width:760px){
+                        .header img{
+                            width: 740px;
+                            flex-direction:row;
+                            background-color: #2F4858;
+                    
+                        }
+                    
+                    @media(min-width:760px){
+                        .nav{
+                            width: 730px;
+                            flex-direction:row;
+                            background-color: #2F4858;
+                    
+                        }
+                    
+                    @media(min-width:760px){
+                        .nav .button{
+                            
+                            flex-direction:row;
+                            background-color: #2F4858;
+                          position: absolute;
+                          top: 40%;
+                          right: 40%;
+                         
+                        }
+                    
+                        @media(min-width:760px){
+                            #section{
+                             width: 680px;
+                             height: 95%;
+                                flex-direction: row;
+                               position: absolute;
+                               top:48% ;
+                               right:48% ;
+                               left: ;
+                               
+                            }
+                    
+                           
+                    
+                                 @media(min-width:760px){
+                                    #aside  {
+                                        width: 100%;                
+                                        flex-direction: row;
+                                        position: absolute;
+                                        top:143% ;
+                                        right:;
+                                        left:10% ;
+                                   
+                                       
+                                    }
+                    
+                                    @media(min-width:760px){
+                                        #aside h3{
+                                                              
+                                            flex-direction: row;
+                                            position: absolute;
+                                            top:-15% ;
+                                            right:30%;
+                                            left: ;
+                                       
+                                           
+                                        }
+                    
+                                        @media(min-width:760px){
+                                            #aside hr{
+                                                                                                                
+                                                flex-direction: row;
+                                                position: absolute;
+                                                top:;
+                                                right:20%;
+                                                left: ;
+                                           
+                                               
+                                            }
+                    
+                                                               
+                                    @media(min-width:760px){
+                                        aside p{
+                                            font: 1em sans-serif;
+                                       
+                                           
+                                        }
+
+                                        @media(min-width:760px){
+                                            .aside  input{
+                                                
+                                                position: absolute;
+                                                top:40%;
+                                                right:20%;
+                                                left: ;
+                                           
+                                               
+                                            }
+
+                                            @media(min-width:1024px){
+                                                .header {
+                                                    width: 1900px;
+                                                    flex-direction:row;
+                                                    background-color:white;
+                                            
+                                                }
+
+                                   
+
+                                            @media(min-width:1024px){
+                                                .header img{
+                                                    width: 1900px;
+                                                    flex-direction:row;
+                                                    background-color: #2F4858;
+                                            
+                                                }
+                                            
+                                            @media(min-width:1024px){
+                                                .nav{
+                                                    width: 1900px;
+                                                    
+                                                    flex-direction:row;
+                                                    background-color: #2F4858;
+                                                   
+                                            
+                                                }
+                                            
+                                            @media(min-width:1024px){
+                                                .nav .button{
+                                                    
+                                                    flex-direction:row;
+                                                    background-color: #2F4858;
+                                                  position: absolute;
+                                                  top: 33.7%;
+                                                  right: 0%;
+                                                 
+                                                }
+                                            
+                                                @media(min-width:1024px){
+                                                    #section{
+                                                      
+                                                        width: 900px;
+                                                     height: 30%;
+                                                        flex-direction: row;
+                                                       position: absolute;
+                                                       top:49% ;
+                                                       right: ;
+                                                       left:30% ;
+                                                       
+                                                    }
+                                            
+                                                                                             
+                                                            @media(min-width:1024px){
+                                                                #aside {
+                                                                                      
+                                                                    flex-direction: row;
+                                                                    position: absolute;
+                                                                    top:115% ;
+                                                                    right:;
+                                                                    left:38% ;
+                                                               
+                                                                   
+                                                                }
+                                            
